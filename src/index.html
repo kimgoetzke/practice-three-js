@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Sphere</title>
+    <style>
+        body {
+            padding: 0;
+            box-sizing: border-box;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            background: black;
+            overflow: hidden;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+            /* position: absolute; */
+            top:0;
+            left:0;
+        }
+
+        .text-box {
+            font-size: 16px;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 1px;
+            word-spacing: 8px;
+            text-transform: uppercase;
+            color:rgb(234, 234, 234);
+            background: black;
+        }
+
+        .button-wrapper {
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-box">
+        <div class="button-wrapper">
+            <div class="button">Control sphere with <b>[W]</b>/<b>[A]</b>/<b>[S]</b>/<b>[D]</b> keys</div>
+            <div class="button">Move camera while holding <b>[left mouse]</b> button</div>
+        </div>
+      </div>
+    <script src="./js/scripts.js" type="module"></script>
+</body>
+</html>
