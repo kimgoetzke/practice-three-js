@@ -115,7 +115,6 @@ function animate() {
     requestAnimationFrame(animate);
 
     delta = time.getDelta();
-
     if (keyMap['KeyW']) angularVelocity.x -= delta * 5;
     if (keyMap['KeyS']) angularVelocity.x += delta * 5;
     if (keyMap['KeyA']) angularVelocity.z += delta * 5;
@@ -129,7 +128,7 @@ function animate() {
     plane1.position.z -= angularVelocity.x * delta;
     plane1.position.x = plane1.position.x % 10;
     plane1.position.z = plane1.position.z % 10;
-    
+
     render();
 }
 
