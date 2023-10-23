@@ -1,6 +1,6 @@
 # The Three.js Practice Project
 
-The purpose of this project was to practice explore the basics of Three.js and build a super simple but functional app. 
+The purpose of this project was to explore Three.js and build a super simple but functional app. 
 
 ![](demo.gif)
 
